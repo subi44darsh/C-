@@ -1,0 +1,19 @@
+using System.IO;
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string name="Subhiksha";
+        int age=21;
+        char gender='F';
+        float x=88.8F;
+        Console.WriteLine("Name:{0}", name);
+         Console.WriteLine("age:{0}", age);
+        Console.WriteLine("gender:{0}", gender);
+        Console.WriteLine("x:{0}", x);
+        
+    } 
+        
+}

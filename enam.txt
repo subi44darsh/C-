@@ -1,0 +1,30 @@
+using System.IO;
+using System;
+
+class Program
+{
+    public enum Salutation
+        {
+            Mr=0,
+            Ms=1,
+            MMrs=2,
+            Dr=3
+        }
+        class Class12
+        {
+            static void Main(string[] args)
+            {
+                Salutation salutation;
+                string name;
+                  Console.WriteLine("Enter the salutation");
+                  salutation= (salutation)Enum.Parse(typeof(Salutation),Console.Readline());
+                  Console.WriteLine("Enter your name");
+                  name=Console.Readline();
+                  Console.WriteLine("\nYour name is:{0}",salutation.Tostring()};
+                  Console.Write("."+name);
+                  
+            }
+        }
+    
+    }
+
